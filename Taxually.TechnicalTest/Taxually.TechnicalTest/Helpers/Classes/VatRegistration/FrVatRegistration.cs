@@ -15,7 +15,7 @@ namespace Taxually.TechnicalTest.Helpers.Classes.VatRegistration
             _queueClient = queueClient;
         }
 
-        public async void Register(VatRegistrationModel registrationModel)
+        public async Task Register(VatRegistrationModel registrationModel)
         {
             var stringBuilder = StringBuilder(registrationModel.CompanyName, registrationModel.CompanyId);
             var csv = CsvBuilder(stringBuilder);
