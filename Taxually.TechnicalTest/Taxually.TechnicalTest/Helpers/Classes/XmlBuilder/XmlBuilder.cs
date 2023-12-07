@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 using Taxually.TechnicalTest.Helpers.Interfaces.XmlBuilder;
 using Taxually.TechnicalTest.Models;
 

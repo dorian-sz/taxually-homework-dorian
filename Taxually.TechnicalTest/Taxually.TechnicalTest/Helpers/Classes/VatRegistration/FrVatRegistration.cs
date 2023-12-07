@@ -1,6 +1,4 @@
-﻿using System.Text;
-using Taxually.TechnicalTest.Helpers.Classes.QueueClient;
-using Taxually.TechnicalTest.Helpers.Interfaces.CsvBuilder;
+﻿using Taxually.TechnicalTest.Helpers.Interfaces.CsvBuilder;
 using Taxually.TechnicalTest.Helpers.Interfaces.QueueClient;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistration;
 using Taxually.TechnicalTest.Models;
