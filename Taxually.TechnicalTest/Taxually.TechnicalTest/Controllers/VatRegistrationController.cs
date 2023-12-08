@@ -24,6 +24,11 @@ namespace Taxually.TechnicalTest.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] VatRegistrationModel request)
         {
+            if (!ModelState.IsValid)
+            {
+                return UnprocessableEntity(ModelState);
+            }
+
             var vatRegistration = _factory.GetRegistrationInstance(request.Country);
             if (vatRegistration != null)
             {
