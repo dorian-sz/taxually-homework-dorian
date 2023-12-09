@@ -30,13 +30,16 @@ namespace Taxually.TechnicalTest.Controllers
             }
 
             var vatRegistration = _factory.GetRegistrationInstance(request.Country);
-            if (vatRegistration != null)
+            if (vatRegistration == null)
             {
-                await vatRegistration.Register(request);
+                return BadRequest("Invalid country code");
+            }
+            var success = await vatRegistration.Register(request);
+            if (success)
+            {
                 return Ok();
             }
-            return BadRequest("Invalid country code");
-            
+            return BadRequest("Invalid model");
         }
     }
 }
