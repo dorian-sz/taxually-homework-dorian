@@ -1,11 +1,13 @@
 using Taxually.TechnicalTest.Helpers.Classes.CsvBuilder;
 using Taxually.TechnicalTest.Helpers.Classes.HttpClient;
 using Taxually.TechnicalTest.Helpers.Classes.QueueClient;
+using Taxually.TechnicalTest.Helpers.Classes.VatModelChecker;
 using Taxually.TechnicalTest.Helpers.Classes.VatRegistration;
 using Taxually.TechnicalTest.Helpers.Classes.VatRegistrationFactory;
 using Taxually.TechnicalTest.Helpers.Classes.XmlBuilder;
 using Taxually.TechnicalTest.Helpers.Interfaces.CsvBuilder;
 using Taxually.TechnicalTest.Helpers.Interfaces.HttpClient;
+using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;
 using Taxually.TechnicalTest.Helpers.Interfaces.QueueClient;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistration;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistrationFactory;
@@ -30,6 +32,7 @@ builder.Services.AddTransient<ITaxuallyQueueClient<byte[]>, CsvTaxuallyQueueClie
 builder.Services.AddTransient<ITaxuallyQueueClient<string>, XmlTaxuallyQueueClient>();
 builder.Services.AddTransient<ICsvBuilder, CsvBuilder>();
 builder.Services.AddTransient<IXmlBuilder<VatRegistrationModel>, XmlBuilder>();
+builder.Services.AddTransient<IModelPropertyChecker<VatRegistrationModel>, VatModelChecker>();
 
 var app = builder.Build();
 
