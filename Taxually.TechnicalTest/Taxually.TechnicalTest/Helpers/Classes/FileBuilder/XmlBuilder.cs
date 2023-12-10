@@ -1,8 +1,8 @@
 ﻿using System.Xml.Serialization;
-using Taxually.TechnicalTest.Helpers.Interfaces.XmlBuilder;
+using Taxually.TechnicalTest.Helpers.Interfaces.FileBuilder;
 using Taxually.TechnicalTest.Models;
 
-namespace Taxually.TechnicalTest.Helpers.Classes.XmlBuilder
+namespace Taxually.TechnicalTest.Helpers.Classes.FileBuilder
 {
     public class XmlBuilder : IXmlBuilder<VatRegistrationModel>
     {

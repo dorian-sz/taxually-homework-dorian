@@ -1,7 +1,7 @@
 ﻿using System.Text;
-using Taxually.TechnicalTest.Helpers.Interfaces.CsvBuilder;
+using Taxually.TechnicalTest.Helpers.Interfaces.FileBuilder;
 
-namespace Taxually.TechnicalTest.Helpers.Classes.CsvBuilder
+namespace Taxually.TechnicalTest.Helpers.Classes.FileBuilder
 {
     public class CsvBuilder : ICsvBuilder
     {
