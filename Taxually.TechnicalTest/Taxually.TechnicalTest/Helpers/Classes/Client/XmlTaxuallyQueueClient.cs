@@ -1,6 +1,6 @@
-﻿using Taxually.TechnicalTest.Helpers.Interfaces.QueueClient;
+﻿using Taxually.TechnicalTest.Helpers.Interfaces.Client;
 
-namespace Taxually.TechnicalTest.Helpers.Classes.QueueClient
+namespace Taxually.TechnicalTest.Helpers.Classes.Client
 {
     public class XmlTaxuallyQueueClient : ITaxuallyQueueClient<string>
     {

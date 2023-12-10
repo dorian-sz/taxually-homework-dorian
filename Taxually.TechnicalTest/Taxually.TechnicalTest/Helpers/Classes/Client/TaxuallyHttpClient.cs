@@ -1,7 +1,7 @@
-﻿using Taxually.TechnicalTest.Helpers.Interfaces.HttpClient;
+﻿using Taxually.TechnicalTest.Helpers.Interfaces.Client;
 using Taxually.TechnicalTest.Models;
 
-namespace Taxually.TechnicalTest.Helpers.Classes.HttpClient
+namespace Taxually.TechnicalTest.Helpers.Classes.Client
 {
     public class TaxuallyHttpClient : ITaxuallyHttpClient<VatRegistrationModel>
     {
