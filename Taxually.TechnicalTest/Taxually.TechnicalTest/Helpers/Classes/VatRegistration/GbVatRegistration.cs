@@ -1,4 +1,4 @@
-﻿using Taxually.TechnicalTest.Helpers.Interfaces.HttpClient;
+﻿using Taxually.TechnicalTest.Helpers.Interfaces.Client;
 using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistration;
 using Taxually.TechnicalTest.Models;

@@ -1,7 +1,7 @@
-﻿using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;
-using Taxually.TechnicalTest.Helpers.Interfaces.QueueClient;
+﻿using Taxually.TechnicalTest.Helpers.Interfaces.Client;
+using Taxually.TechnicalTest.Helpers.Interfaces.FileBuilder;
+using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistration;
-using Taxually.TechnicalTest.Helpers.Interfaces.XmlBuilder;
 using Taxually.TechnicalTest.Models;
 
 namespace Taxually.TechnicalTest.Helpers.Classes.VatRegistration

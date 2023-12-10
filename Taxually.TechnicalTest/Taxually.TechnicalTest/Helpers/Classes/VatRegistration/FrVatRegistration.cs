@@ -1,6 +1,6 @@
-﻿using Taxually.TechnicalTest.Helpers.Interfaces.CsvBuilder;
+﻿using Taxually.TechnicalTest.Helpers.Interfaces.Client;
+using Taxually.TechnicalTest.Helpers.Interfaces.FileBuilder;
 using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;
-using Taxually.TechnicalTest.Helpers.Interfaces.QueueClient;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistration;
 using Taxually.TechnicalTest.Models;
 

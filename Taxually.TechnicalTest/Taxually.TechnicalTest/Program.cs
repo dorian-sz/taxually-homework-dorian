@@ -1,17 +1,13 @@
-using Taxually.TechnicalTest.Helpers.Classes.CsvBuilder;
-using Taxually.TechnicalTest.Helpers.Classes.HttpClient;
-using Taxually.TechnicalTest.Helpers.Classes.QueueClient;
-using Taxually.TechnicalTest.Helpers.Classes.VatModelChecker;
+using Taxually.TechnicalTest.Helpers.Classes.Client;
+using Taxually.TechnicalTest.Helpers.Classes.FileBuilder;
+using Taxually.TechnicalTest.Helpers.Classes.ModelChecker;
 using Taxually.TechnicalTest.Helpers.Classes.VatRegistration;
 using Taxually.TechnicalTest.Helpers.Classes.VatRegistrationFactory;
-using Taxually.TechnicalTest.Helpers.Classes.XmlBuilder;
-using Taxually.TechnicalTest.Helpers.Interfaces.CsvBuilder;
-using Taxually.TechnicalTest.Helpers.Interfaces.HttpClient;
+using Taxually.TechnicalTest.Helpers.Interfaces.Client;
+using Taxually.TechnicalTest.Helpers.Interfaces.FileBuilder;
 using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;
-using Taxually.TechnicalTest.Helpers.Interfaces.QueueClient;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistration;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistrationFactory;
-using Taxually.TechnicalTest.Helpers.Interfaces.XmlBuilder;
 using Taxually.TechnicalTest.Models;
 
 var builder = WebApplication.CreateBuilder(args);
