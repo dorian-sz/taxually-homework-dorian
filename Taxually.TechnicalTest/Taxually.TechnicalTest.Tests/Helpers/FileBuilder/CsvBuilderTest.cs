@@ -7,11 +7,11 @@ using Taxually.TechnicalTest.Helpers.Classes.FileBuilder;
 
 namespace Taxually.TechnicalTest.Tests.Helpers.FileBuilder
 {
-    public class CsvBuilderTests
+    public class CsvBuilderTest
     {
         private readonly CsvBuilder _builder;
         
-        public CsvBuilderTests()
+        public CsvBuilderTest()
         {
             _builder = new CsvBuilder();
         }
