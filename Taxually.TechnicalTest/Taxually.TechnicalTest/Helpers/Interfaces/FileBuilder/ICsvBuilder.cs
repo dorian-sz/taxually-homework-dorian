@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Taxually.TechnicalTest.Helpers.Interfaces.CsvBuilder
+namespace Taxually.TechnicalTest.Helpers.Interfaces.FileBuilder
 {
     public interface ICsvBuilder
     {
