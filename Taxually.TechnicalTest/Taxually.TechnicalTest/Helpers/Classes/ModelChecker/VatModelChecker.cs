@@ -1,7 +1,7 @@
 ﻿using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;
 using Taxually.TechnicalTest.Models;
 
-namespace Taxually.TechnicalTest.Helpers.Classes.VatModelChecker
+namespace Taxually.TechnicalTest.Helpers.Classes.ModelChecker
 {
     public class VatModelChecker : IModelPropertyChecker<VatRegistrationModel>
     {
