@@ -2,7 +2,7 @@ using Taxually.TechnicalTest.Helpers.Classes.Client;
 using Taxually.TechnicalTest.Helpers.Classes.FileBuilder;
 using Taxually.TechnicalTest.Helpers.Classes.ModelChecker;
 using Taxually.TechnicalTest.Helpers.Classes.VatRegistration;
-using Taxually.TechnicalTest.Helpers.Classes.VatRegistrationFactory;
+using Taxually.TechnicalTest.Helpers.Classes.RegistrationFactory;
 using Taxually.TechnicalTest.Helpers.Interfaces.Client;
 using Taxually.TechnicalTest.Helpers.Interfaces.FileBuilder;
 using Taxually.TechnicalTest.Helpers.Interfaces.ModelPropertyChecker;

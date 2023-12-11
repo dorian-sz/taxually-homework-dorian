@@ -3,7 +3,7 @@ using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistration;
 using Taxually.TechnicalTest.Helpers.Interfaces.VatRegistrationFactory;
 using Taxually.TechnicalTest.Models;
 
-namespace Taxually.TechnicalTest.Helpers.Classes.VatRegistrationFactory
+namespace Taxually.TechnicalTest.Helpers.Classes.RegistrationFactory
 {
     public class VatRegistrationFactory : IVatRegistrationFactory<IVatRegistration<VatRegistrationModel>>
     {
